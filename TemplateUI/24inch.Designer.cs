@@ -113,9 +113,7 @@ namespace TemplateUI
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.kryptonPage4 = new ComponentFactory.Krypton.Navigator.KryptonPage();
             this.kryptonGroup15 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
-            this.kryptonButton8 = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.label21 = new System.Windows.Forms.Label();
-            this.kryptonTextBox11 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonDataGridView2 = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
             this.kryptonGroup16 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
             this.kryptonGroup17 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
@@ -132,6 +130,8 @@ namespace TemplateUI
             this.controlPoint = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.No = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.serialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label30 = new System.Windows.Forms.Label();
+            this.Tb_MfgProduct = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonNavigator1)).BeginInit();
             this.kryptonNavigator1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonPage1)).BeginInit();
@@ -240,7 +240,7 @@ namespace TemplateUI
             this.kryptonPage2,
             this.kryptonPage3,
             this.kryptonPage4});
-            this.kryptonNavigator1.SelectedIndex = 0;
+            this.kryptonNavigator1.SelectedIndex = 3;
             this.kryptonNavigator1.Size = new System.Drawing.Size(1852, 891);
             this.kryptonNavigator1.StateCommon.Bar.BarPaddingInside = new System.Windows.Forms.Padding(0);
             this.kryptonNavigator1.StateCommon.Bar.BarPaddingOnly = new System.Windows.Forms.Padding(0);
@@ -2161,9 +2161,9 @@ namespace TemplateUI
             // 
             // kryptonGroup15.Panel
             // 
-            this.kryptonGroup15.Panel.Controls.Add(this.kryptonButton8);
+            this.kryptonGroup15.Panel.Controls.Add(this.Tb_MfgProduct);
+            this.kryptonGroup15.Panel.Controls.Add(this.label30);
             this.kryptonGroup15.Panel.Controls.Add(this.label21);
-            this.kryptonGroup15.Panel.Controls.Add(this.kryptonTextBox11);
             this.kryptonGroup15.Panel.Controls.Add(this.kryptonDataGridView2);
             this.kryptonGroup15.Size = new System.Drawing.Size(1504, 846);
             this.kryptonGroup15.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -2177,99 +2177,17 @@ namespace TemplateUI
             this.kryptonGroup15.StateCommon.Border.Width = 2;
             this.kryptonGroup15.TabIndex = 92;
             // 
-            // kryptonButton8
-            // 
-            this.kryptonButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kryptonButton8.Location = new System.Drawing.Point(1206, 102);
-            this.kryptonButton8.Name = "kryptonButton8";
-            this.kryptonButton8.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(67)))), ((int)(((byte)(228)))));
-            this.kryptonButton8.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(67)))), ((int)(((byte)(228)))));
-            this.kryptonButton8.OverrideDefault.Back.ColorAngle = 45F;
-            this.kryptonButton8.OverrideDefault.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.OverrideDefault.Border.ColorAngle = 45F;
-            this.kryptonButton8.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton8.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonButton8.OverrideDefault.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.OverrideDefault.Border.Rounding = 30;
-            this.kryptonButton8.OverrideDefault.Border.Width = 1;
-            this.kryptonButton8.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.kryptonButton8.Size = new System.Drawing.Size(258, 57);
-            this.kryptonButton8.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(67)))), ((int)(((byte)(228)))));
-            this.kryptonButton8.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(67)))), ((int)(((byte)(228)))));
-            this.kryptonButton8.StateCommon.Back.ColorAngle = 45F;
-            this.kryptonButton8.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(74)))), ((int)(((byte)(147)))));
-            this.kryptonButton8.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(74)))), ((int)(((byte)(147)))));
-            this.kryptonButton8.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonButton8.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton8.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonButton8.StateCommon.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StateCommon.Border.Rounding = 30;
-            this.kryptonButton8.StateCommon.Border.Width = 1;
-            this.kryptonButton8.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.kryptonButton8.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.kryptonButton8.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonButton8.StateCommon.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StateCommon.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
-            this.kryptonButton8.StatePressed.Back.ColorAngle = 135F;
-            this.kryptonButton8.StatePressed.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StatePressed.Border.ColorAngle = 135F;
-            this.kryptonButton8.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton8.StatePressed.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StatePressed.Border.Rounding = 30;
-            this.kryptonButton8.StatePressed.Border.Width = 1;
-            this.kryptonButton8.StateTracking.Back.ColorAngle = 45F;
-            this.kryptonButton8.StateTracking.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StateTracking.Border.ColorAngle = 45F;
-            this.kryptonButton8.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton8.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonButton8.StateTracking.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonButton8.StateTracking.Border.Rounding = 30;
-            this.kryptonButton8.StateTracking.Border.Width = 1;
-            this.kryptonButton8.TabIndex = 94;
-            this.kryptonButton8.Values.Text = "Set Machine Status";
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
             this.label21.Location = new System.Drawing.Point(33, 56);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(190, 24);
+            this.label21.Size = new System.Drawing.Size(435, 37);
             this.label21.TabIndex = 92;
-            this.label21.Text = "Set Dummy Quantity :";
-            // 
-            // kryptonTextBox11
-            // 
-            this.kryptonTextBox11.Enabled = false;
-            this.kryptonTextBox11.Location = new System.Drawing.Point(19, 102);
-            this.kryptonTextBox11.Name = "kryptonTextBox11";
-            this.kryptonTextBox11.Size = new System.Drawing.Size(1107, 61);
-            this.kryptonTextBox11.StateCommon.Back.Color1 = System.Drawing.Color.White;
-            this.kryptonTextBox11.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox11.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.kryptonTextBox11.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonTextBox11.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonTextBox11.StateCommon.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.kryptonTextBox11.StateCommon.Border.Rounding = 30;
-            this.kryptonTextBox11.StateCommon.Border.Width = 1;
-            this.kryptonTextBox11.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
-            this.kryptonTextBox11.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.kryptonTextBox11.StateCommon.Content.Padding = new System.Windows.Forms.Padding(7);
-            this.kryptonTextBox11.TabIndex = 93;
-            this.kryptonTextBox11.Text = "3";
+            this.label21.Text = "Serial Number of 1968339 :";
             // 
             // kryptonDataGridView2
             // 
@@ -2278,10 +2196,10 @@ namespace TemplateUI
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.controlPoint});
-            this.kryptonDataGridView2.Location = new System.Drawing.Point(18, 181);
+            this.kryptonDataGridView2.Location = new System.Drawing.Point(18, 129);
             this.kryptonDataGridView2.Name = "kryptonDataGridView2";
             this.kryptonDataGridView2.RowHeadersWidth = 51;
-            this.kryptonDataGridView2.Size = new System.Drawing.Size(1446, 248);
+            this.kryptonDataGridView2.Size = new System.Drawing.Size(1446, 612);
             this.kryptonDataGridView2.StateCommon.Background.Color1 = System.Drawing.Color.White;
             this.kryptonDataGridView2.StateCommon.Background.Color2 = System.Drawing.Color.White;
             this.kryptonDataGridView2.StateCommon.Background.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
@@ -2532,6 +2450,39 @@ namespace TemplateUI
             this.serialNumber.HeaderText = "Serial Number";
             this.serialNumber.Name = "serialNumber";
             // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label30.ForeColor = System.Drawing.Color.Gray;
+            this.label30.Location = new System.Drawing.Point(51, 784);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(207, 24);
+            this.label30.TabIndex = 95;
+            this.label30.Text = "Total of Serial Number :";
+            // 
+            // Tb_MfgProduct
+            // 
+            this.Tb_MfgProduct.Enabled = false;
+            this.Tb_MfgProduct.Location = new System.Drawing.Point(272, 776);
+            this.Tb_MfgProduct.Name = "Tb_MfgProduct";
+            this.Tb_MfgProduct.Size = new System.Drawing.Size(108, 35);
+            this.Tb_MfgProduct.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.Tb_MfgProduct.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Tb_MfgProduct.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Tb_MfgProduct.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Tb_MfgProduct.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Tb_MfgProduct.StateCommon.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.Tb_MfgProduct.StateCommon.Border.Rounding = 20;
+            this.Tb_MfgProduct.StateCommon.Border.Width = 1;
+            this.Tb_MfgProduct.StateCommon.Content.Color1 = System.Drawing.Color.Gray;
+            this.Tb_MfgProduct.TabIndex = 96;
+            this.Tb_MfgProduct.Text = "0";
+            this.Tb_MfgProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2749,9 +2700,7 @@ namespace TemplateUI
         private System.Windows.Forms.DataGridViewTextBoxColumn serialNumber;
         private ComponentFactory.Krypton.Navigator.KryptonPage kryptonPage4;
         private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup15;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton8;
         private System.Windows.Forms.Label label21;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox11;
         private ComponentFactory.Krypton.Toolkit.KryptonDataGridView kryptonDataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -2766,6 +2715,8 @@ namespace TemplateUI
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox22;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox Tb_MfgProduct;
+        private System.Windows.Forms.Label label30;
     }
 }
 
